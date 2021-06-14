@@ -13,6 +13,16 @@
         font-size:14px;
     }
 
+    a.link3{
+        text-align: center;
+        font-size:20px;
+        color:rgb(200, 215, 231);
+        border:1px solid rgb(255, 255, 255) !important;
+        margin-left:10%;
+        
+        padding:14px;
+    }
+
     .target{
         display:none !important;
     }

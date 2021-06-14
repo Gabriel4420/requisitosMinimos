@@ -180,7 +180,7 @@ a.link3{
     font-size:20px;
     color:rgb(200, 215, 231);
     border:1px solid rgb(255, 255, 255) !important;
- 
+    margin-left:36%; 
     padding:14px;
 }
 
@@ -220,6 +220,7 @@ img {
 
 .documents{
     padding-left:280px !important;
+    padding-bottom:50px;
 }
 
 /* fecha corner */
