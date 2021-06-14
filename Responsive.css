@@ -1,0 +1,224 @@
+/* Responsible Design  */
+
+@media (max-width: 768px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    h4{
+        font-size:14px;
+    }
+    a.link2{
+        font-size:14px;
+    }
+
+    .target{
+        display:none !important;
+    }
+    
+    div, p {
+        padding: 0px;
+        word-wrap: break-word;
+    }
+
+    div#app-walkthrough, 
+    div#app-walkthrough-pass2, 
+    div#app-walkthrough-pass3, 
+    div#app-walkthrough-pass4{
+        align-items: center;
+        padding-left:10px;
+        font-size:12px;
+
+        overflow: hidden;
+        width:100vw;    
+        word-wrap: break-word;
+    }
+
+    div#app-walkthrough p, 
+    div#app-walkthrough-pass2 p , 
+    div#app-walkthrough-pass3 p,
+    div#app-walkthrough-pass4 p{
+        padding:20px;
+    }
+
+    #app-walkthrough-pass3 img, #app-walkthrough-pass4 img{
+        margin-top:40px;
+        margin-bottom: -50px;
+        margin-left:90px;
+    }
+
+    #app-walkthrough-pass4 img{
+        margin-left:60px;
+    }
+
+    #app-walkthrough code, 
+    #app-walkthrough-pass2 code, 
+    #app-walkthrough-pass3 code,
+    #app-walkthrough-pass4 code{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+        
+    }
+
+    code p{
+        padding:20px;
+    }
+
+    pre{
+        line-break: strict;
+        width:100vw;
+        margin-left:10px;
+        height:100%;
+    }
+
+    pre span:not(.dec) .atv{
+        line-break: break-all;
+        word-break: break-all;
+    }
+
+    .atv::before {
+        content: "\A";
+        white-space: pre;
+    }
+
+    ul , li , a{
+        font-size:12px;
+        padding:20px;
+    }
+
+    .main-menu {
+        display: none;
+        
+    }
+
+    #code {
+
+        padding:0;
+        font-size:12px;
+    }
+    .codeblock{
+  
+        padding:0;
+    }
+    .documents{
+        padding-left:0px !important;
+        line-break: strict;
+    } 
+    h3{
+        text-align:center;
+        margin-left:10px;
+     }   
+}
+
+@media screen and (max-width: 1024px) and (min-width:480px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .target{
+        display:none !important;
+    }
+
+    h3{
+       text-align:center;
+       
+    }
+
+    a.link2{
+        font-size:14px;
+    }
+
+    h4{
+        font-size:18px;
+    }
+    
+    div, p {
+        padding: 0px;
+        word-wrap: break-word;
+    }
+
+    div#app-walkthrough, 
+    div#app-walkthrough-pass2, 
+    div#app-walkthrough-pass3, 
+    div#app-walkthrough-pass4{
+        align-items: center;
+        padding-left:10px;
+        font-size:12px;
+        overflow: hidden;
+        width:100vw;    
+        word-wrap: break-word;
+    }
+
+    div#app-walkthrough p, 
+    div#app-walkthrough-pass2 p , 
+    div#app-walkthrough-pass3 p,
+    div#app-walkthrough-pass4 p{
+        padding:20px;
+    }
+
+    #app-walkthrough-pass3 img{
+        margin-left:150px;
+    }
+
+    #app-walkthrough-pass4 img{
+        margin-left:250px;
+    }
+
+    #app-walkthrough code, 
+    #app-walkthrough-pass2 code, 
+    #app-walkthrough-pass3 code{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+        
+    }
+
+    code p{
+        padding:20px;
+    }
+
+    pre{
+        line-break: strict;
+        width:100vw;
+        margin-left:10px;
+        height:100%;
+    }
+
+    pre span:not(.dec) .atv{
+        line-break: break-all;
+        word-break: break-all;
+    }
+
+    .atv::before {
+        content: "\A";
+        white-space: pre;
+    }
+
+    ul , li , a{
+        font-size:12px;
+        padding:20px;
+    }
+
+    .main-menu {
+        display: none;
+        
+    }
+
+    #code {
+
+        padding:0;
+        font-size:12px;
+    }
+    .codeblock{
+  
+        padding:0;
+    }
+    .documents{
+        padding-left:0px !important;
+        line-break: strict;
+    }    
+}   
