@@ -161,7 +161,7 @@ a {
     text-shadow: 0px 0px 15px rgb(61, 60, 60);
 }
 
-a.link,.link2{
+a.link,.link2, .link3{
     display: inline;
     border:none !important;
     cursor:pointer;
@@ -175,13 +175,28 @@ a.link,.link2{
        
 }
 
+a.link3{
+    text-align: center;
+    font-size:20px;
+    color:rgb(200, 215, 231);
+    border:1px solid rgb(255, 255, 255) !important;
+ 
+    padding:14px;
+}
+
+a.link3:hover {
+    background-color:rgb(26, 24, 24);
+    color:rgb(41, 117, 197);
+    border:1px solid rgb(26, 24, 24) !important;
+}
+
 a.link2{
     font-size:20px;
     color:rgb(0, 255, 55);
     background-color:rgb(26, 24, 24);
 }
 
-a.link:hover, .link2:hover{
+a.link:hover, .link2:hover, .link3:hover{
     text-decoration:underline;
     font-weight: bold;
 }
